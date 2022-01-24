@@ -1,0 +1,37 @@
+.saroimg{
+  border-radius: 50%;
+
+}
+
+body{
+  text-align:center;
+  background-color:#EAF6F6;
+}
+hr{
+
+
+  height:0px;
+  width:5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 8px;
+
+}
+h1{
+  color: #66BFBF;
+}
+h3{
+  color:#9AD0EC;
+}
+a{
+  color: #66BFBF;
+}
+a:hover{
+
+    color:#9AD0EC;
+}
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
