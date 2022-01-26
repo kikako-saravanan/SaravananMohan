@@ -7,6 +7,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 <title>Queries</title>
 <link rel="icon" href="favicon.png">
 
@@ -68,6 +70,15 @@ input[type=submit]:hover {
   clear: both;
 }
 
+a{
+    line-height: 0.2em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px;
+  
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -82,10 +93,17 @@ input[type=submit]:hover {
   
 <div class="container">
   <h1>My Contact Details</h1>
-<div>
-  My Mail Id: msaravanan1998@gmail.com
-</div>
-  <h3>Need to say something.Please fill the form</h3>
+  <div class="personal-details">
+    <a href="mailto:msaravanan1998@gmail.com" target="_blank" rel="noopener noreferrer" class="fa fa-envelope" aria-hidden="true" style="margin-bottom:5px;padding:0;"> msaravanan1998@gmail.com</a>
+    <a href="tel:9940310699" target="_blank" rel="noopener noreferrer" class="fa fa-phone" aria-hidden="true" style="margin-bottom:5px;padding:0;"> 9940310699</a>
+    <a href="https://www.google.com/maps/place/Coral+Merchant+Street,+George+Town,+Chennai,+Tamil+Nadu+600001/@13.0995794,80.2873204,17z/data=!3m1!4b1!4m5!3m4!1s0x3a526f436c5fdd65:0xebd4a1108bff3ae8!8m2!3d13.0995794!4d80.2895091"
+      target="_blank" rel="noopener noreferrer" class="fa fa-map-marker" aria-hidden="true" style="margin-bottom:5px;padding:0;">
+      172, Coral Merchant Street,Mannady
+    </a>
+
+  </div>
+    <h3>Need to say something.Please fill the form</h3>
+    <div style="display:flex; justify-content: center;">
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
@@ -373,10 +391,12 @@ input[type=submit]:hover {
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       </div>
     </div>
-    <div class="row">
-      <input type="submit" value="Submit">
+    <br/>
+    <div class="row" style="display:flex;justify-content: center;">
+      <input type="submit" value="Submit" style="display:flex;justify-content: center;">
     </div>
   </form>
+</div>
 </div>
 
 </body>
