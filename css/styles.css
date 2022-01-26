@@ -1,37 +1,38 @@
-.saroimg{
+.saroimg {
   border-radius: 50%;
-
 }
 
-body{
-  text-align:center;
-  background-color:#EAF6F6;
+body {
+  text-align: center;
+  background-color: #eaf6f6;
+  isolation: isolate;
 }
-hr{
-
-
-  height:0px;
-  width:5%;
+hr {
+  height: 0px;
+  width: 5%;
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 8px;
-
+  isolation: isolate;
 }
-h1{
-  color: #66BFBF;
+h1 {
+  color: #66bfbf;
+  isolation: isolate;
 }
-h3{
-  color:#9AD0EC;
+h3 {
+  color: #9ad0ec;
+  isolation: isolate;
 }
-a{
-  color: #66BFBF;
+a {
+  color: #66bfbf;
+  isolation: isolate;
 }
-a:hover{
-
-    color:#9AD0EC;
+a:hover {
+  color: #9ad0ec;
+  isolation: isolate;
 }
 img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+  -webkit-transform: scale(1.5); /* or some other value */
+  transform: scale(1.5);
 }
