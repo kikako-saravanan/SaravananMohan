@@ -23,6 +23,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  isolation: isolate;
 }
 
 label {
@@ -38,17 +39,20 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  isolation: isolate;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
+  isolation: isolate;
 
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+ /* background-color: #f2f2f2;*/
   padding: 20px;
+  isolation: isolate;
 }
 
 .col-25 {
@@ -398,6 +402,24 @@ a{
   </form>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    const options = {
+  bottom: "32px", // default: '32px'
+  right: "32px", // default: '32px'
+  left: "unset", // default: 'unset'
+  time: "0.5s", // default: '0.3s'
+  mixColor: "#fff", // default: '#fff'
+  backgroundColor: "#fff", // default: '#fff'
+  buttonColorDark: "#100f2c", // default: '#100f2c'
+  buttonColorLight: "#fff", // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: "🌓", // default: ''
+  autoMatchOsTheme: true, // default: true
+};
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
 
+  </script>
 </body>
 </html>
