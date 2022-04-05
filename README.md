@@ -1,2 +1,2 @@
 # SaravananMohan
-My Personal Website(Version 1.0)
+My Personal Portfolio(Version 1.0)
